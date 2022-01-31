@@ -5,7 +5,7 @@
   <img alt="Repo size" src="https://img.shields.io/github/repo-size/vanzasetia/meet-landing-page?style=for-the-badge&logo=github">
   <a href="https://twitter.com/vanzasetia" target="_blank"><img src="https://img.shields.io/twitter/follow/vanzasetia?logo=twitter&style=for-the-badge" alt="Twitter followers." /></a>
   <img alt="Last commit" src="https://img.shields.io/github/last-commit/vanzasetia/meet-landing-page?style=for-the-badge&logo=git">
-  <img alt="Netlify" src="https://img.shields.io/netlify/?style=for-the-badge&logo=netlify">
+  <img alt="Netlify" src="https://img.shields.io/netlify/a01a5b70-52c6-48b8-80ff-cf4f496e9ae0?style=for-the-badge&logo=netlify">
   <img alt="License" src="https://img.shields.io/github/license/vanzasetia/meet-landing-page?color=green&style=for-the-badge&logo=github">
 </p>
 
