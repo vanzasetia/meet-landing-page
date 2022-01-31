@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://officialmeet.netlify.app/sitemap.xml
