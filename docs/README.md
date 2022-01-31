@@ -1,5 +1,5 @@
 # Documentation
-[(Back to home)](https://github.com/vanzasetia/reponame#readme)
+[(Back to home)](https://github.com/vanzasetia/meet-landing-page#readme)
 
 ## Table of contents
 - [Overview](#overview)

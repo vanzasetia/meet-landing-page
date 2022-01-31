@@ -2,11 +2,11 @@
 
 <p align="left">
   <a href="https://www.frontendmentor.io/challenges?difficulties=1" target="_blank"><img src="https://img.shields.io/badge/Difficulty-Newbie-14C2C8?style=for-the-badge&logo=frontendmentor" alt="Difficulty"></a>
-  <img alt="Repo size" src="https://img.shields.io/github/repo-size/vanzasetia/reponame?style=for-the-badge&logo=github">
+  <img alt="Repo size" src="https://img.shields.io/github/repo-size/vanzasetia/meet-landing-page?style=for-the-badge&logo=github">
   <a href="https://twitter.com/vanzasetia" target="_blank"><img src="https://img.shields.io/twitter/follow/vanzasetia?logo=twitter&style=for-the-badge" alt="Twitter followers." /></a>
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/vanzasetia/reponame?style=for-the-badge&logo=git">
+  <img alt="Last commit" src="https://img.shields.io/github/last-commit/vanzasetia/meet-landing-page?style=for-the-badge&logo=git">
   <img alt="Netlify" src="https://img.shields.io/netlify/?style=for-the-badge&logo=netlify">
-  <img alt="License" src="https://img.shields.io/github/license/vanzasetia/reponame?color=green&style=for-the-badge&logo=github">
+  <img alt="License" src="https://img.shields.io/github/license/vanzasetia/meet-landing-page?color=green&style=for-the-badge&logo=github">
 </p>
 
 <p>
