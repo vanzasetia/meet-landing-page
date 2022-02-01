@@ -470,16 +470,22 @@ html {
 }
 
 body {
-  font: 1.125rem/1.45 "Red Hat Display", sans-serif;
+  font: 500 1.125rem/1.45 "Red Hat Display", sans-serif;
   color: #28283d;
+  background-color: #fafafa;
+}
+
+h1,
+h2 {
+  font-weight: 900;
 }
 
 h1 {
-  font: 3.5em/1 inherit;
+  line-height: 1;
 }
 
 h2 {
-  font: 2.2em/1 inherit;
+  line-height: 1.1;
 }
 
 p {
