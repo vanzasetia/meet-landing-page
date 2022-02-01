@@ -61,8 +61,10 @@ html {
 }
 
 body {
-  font: #{rem(18)}/ 1.45 "Red Hat Display", sans-serif;
+  font: 500 #{rem(18)}/ 1.45 "Red Hat Display", sans-serif;
   color: $dark-gray;
+  background-color: $white;
+}
 
 h1,
 h2 {
