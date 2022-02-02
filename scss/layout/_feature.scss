@@ -1,0 +1,41 @@
+@use "../abstracts" as *;
+
+.feature {
+  padding: rem(92) 0 rem(64);
+}
+
+.feature .flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: rem(25);
+}
+
+.feature .flex__child {
+  all: inherit;
+  flex-wrap: nowrap;
+}
+
+.feature__image {
+  max-width: rem(150);
+  border-radius: rem(8);
+}
+
+.feature__wrapper-subtitle {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-top: rem(64);
+}
+
+.feature__title {
+  font-size: rem(32);
+  margin: rem(24) 0 rem(32);
+}
+
+.feature__ribbon {
+  font-weight: 900;
+  letter-spacing: rem(4);
+  font-size: rem(16);
+  text-transform: uppercase;
+  color: $dark-green;
+}

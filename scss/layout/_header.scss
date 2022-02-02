@@ -1,0 +1,10 @@
+@use "../abstracts" as *;
+
+.header {
+  padding: rem(48) 0;
+}
+
+.header .container {
+  display: flex;
+  justify-content: center;
+}

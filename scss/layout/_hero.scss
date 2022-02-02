@@ -1,0 +1,18 @@
+@use "../abstracts" as *;
+
+.hero {
+  background: url("../images/image-hero.png") no-repeat top left/100%;
+  padding: rem(150) 0 0;
+  margin-bottom: rem(204);
+}
+
+.hero__title {
+  font-size: rem(40);
+}
+
+.hero .flex {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: rem(32);
+}
