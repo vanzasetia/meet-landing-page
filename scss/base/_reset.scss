@@ -197,7 +197,7 @@ br + br {
 
 .skip-content:focus,
 .skip-content:focus-visible {
-  outline: 0.2em dashed rgb(18, 221, 201);
+  outline: 0.2em dashed $dark-gray;
   outline-offset: 0.25em;
   transform: translate(0);
 }

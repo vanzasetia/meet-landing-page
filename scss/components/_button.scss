@@ -8,6 +8,7 @@
   color: rgb(255, 255, 255);
   font-weight: 900;
   border-radius: 2em;
+  transition: background-color 150ms ease-in-out;
 }
 
 .btn--download {
@@ -16,10 +17,20 @@
 
 .btn--green {
   background-color: $dark-green;
+
+  @include focus-visible($dark-gray);
+  @include on-event {
+    background-color: rgba(113, 192, 212, 1);
+  }
 }
 
 .btn--purple {
   background-color: $dark-purple;
+
+  @include focus-visible($dark-gray);
+  @include on-event {
+    background-color: rgba(177, 139, 221, 1);
+  }
 }
 
 .btn--green .btn__text-faded {
@@ -31,6 +42,5 @@
 }
 
 .btn--what-is-it {
-  background-color: $dark-purple;
   padding: 1em 1.8125em;
 }

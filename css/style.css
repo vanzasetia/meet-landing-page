@@ -605,7 +605,7 @@ br + br {
 }
 .skip-content:focus,
 .skip-content:focus-visible {
-  outline: 0.2em dashed #12ddc9;
+  outline: 0.2em dashed #28283d;
   outline-offset: 0.25em;
   transform: translate(0);
 }
@@ -623,6 +623,7 @@ br + br {
   color: white;
   font-weight: 900;
   border-radius: 2em;
+  transition: background-color 150ms ease-in-out;
 }
 
 .btn--download {
@@ -632,9 +633,23 @@ br + br {
 .btn--green {
   background-color: #4d96a8;
 }
+.btn--green:focus-visible, .btn--green:focus {
+  outline: 0.1875rem dotted #28283d;
+  outline-offset: 0.3125rem;
+}
+.btn--green:hover, .btn--green:active {
+  background-color: #71c0d4;
+}
 
 .btn--purple {
   background-color: #855fb1;
+}
+.btn--purple:focus-visible, .btn--purple:focus {
+  outline: 0.1875rem dotted #28283d;
+  outline-offset: 0.3125rem;
+}
+.btn--purple:hover, .btn--purple:active {
+  background-color: #b18bdd;
 }
 
 .btn--green .btn__text-faded {
@@ -646,7 +661,6 @@ br + br {
 }
 
 .btn--what-is-it {
-  background-color: #855fb1;
   padding: 1em 1.8125em;
 }
 
@@ -699,6 +713,11 @@ br + br {
 .header .container {
   display: flex;
   justify-content: center;
+}
+
+.header__home:focus-visible, .header__home:focus {
+  outline: 0.1875rem dotted #28283d;
+  outline-offset: 0.3125rem;
 }
 
 .hero {
