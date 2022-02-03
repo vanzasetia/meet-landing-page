@@ -7,6 +7,22 @@
   background: url("../images/mobile/image-footer.jpg") no-repeat
     center center/cover;
   color: $white;
+
+  @include breakpoint-up("tiny") {
+    background-image: url("../images/tablet/image-footer.jpg");
+  }
+
+  @include breakpoint-up("medium") {
+    padding: rem(116) 0 rem(104);
+    background-image: url("../images/desktop/image-footer.jpg");
+  }
+}
+
+.experience .container {
+  @include breakpoint-up("medium") {
+    max-width: rem(1110);
+    text-align: left;
+  }
 }
 
 .experience .container::after {
@@ -24,11 +40,31 @@
   z-index: 2;
 }
 
+.experience .flex {
+  @include breakpoint-up("medium") {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
 .experience__title {
   color: inherit;
   font-size: rem(32);
+
+  @include breakpoint-up("small") {
+    font-size: rem(40);
+  }
+
+  @include breakpoint-up("medium") {
+    flex: rem(352) 0 0;
+  }
 }
 
 .experience__description {
   margin: rem(24) 0;
+
+  @include breakpoint-up("medium") {
+    flex: rem(352) 0 0;
+  }
 }

@@ -64,6 +64,10 @@ body {
   font: 500 #{rem(16)}/ 1.45 "Red Hat Display", sans-serif;
   color: $light-gray;
   background-color: $white;
+
+  @include breakpoint-up("small") {
+    font-size: rem(18);
+  }
 }
 
 h1,

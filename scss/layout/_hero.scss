@@ -1,13 +1,55 @@
 @use "../abstracts" as *;
 
+/**
+ * 1. Distance from the most bottom element of the
+ *    hero element ("what is it?" button) to the total
+ *    of the height of the "number" pseudo-elements.
+ *      1.1 Mobile = 64 + 140
+ *      1.2 Desktop = 110 + 140
+ * 2. Preventing the background gets too far from the
+ *    text content.
+ */
 .hero {
-  background: url("../images/image-hero.png") no-repeat top left/100%;
+  background: url("../images/image-hero.png") no-repeat top center/#{rem(
+      414
+    )} rem(153);
   padding: rem(150) 0 0;
-  margin-bottom: rem(204);
+  margin-bottom: rem(204); /* 1.1 */
+
+  @include breakpoint-up("very-small") {
+    background-size: rem(820) rem(303);
+    padding-top: rem(350);
+  }
+
+  @include breakpoint-up("medium") {
+    background-image: url("../images/desktop/image-hero-left.png"),
+      url("../images/desktop/image-hero-right.png");
+    background-position: center left -#{rem(35)},
+      center right -#{rem(35)};
+    background-size: initial;
+    padding-top: rem(64);
+    margin-bottom: rem(250); /* 1.2 */
+  }
+
+  @media screen and (min-width: 90.0625em) {
+    max-width: rem(1440); /* 2 */
+    margin-right: auto; /* 2 */
+    margin-left: auto; /* 2 */
+    background-position: center left, center right; /* 2 */
+  }
 }
 
 .hero__title {
   font-size: rem(40);
+
+  @include breakpoint-up("very-small") {
+    font-size: rem(48);
+  }
+
+  @include breakpoint-up("small") {
+    margin-top: 0;
+    font-size: rem(64);
+  }
 }
 
 .hero .flex {

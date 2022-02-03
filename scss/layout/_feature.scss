@@ -2,6 +2,14 @@
 
 .feature {
   padding: rem(92) 0 rem(64);
+
+  @include breakpoint-up("medium") {
+    padding-bottom: rem(72);
+  }
+}
+
+.feature .container {
+  max-width: 100%;
 }
 
 .feature .flex {
@@ -14,11 +22,24 @@
 .feature .flex__child {
   all: inherit;
   flex-wrap: nowrap;
+
+  @media screen and (max-width: 22.4375em) {
+    flex-wrap: wrap;
+  }
+}
+
+.feature__container {
+  margin: 0 auto;
+  max-width: rem(500);
 }
 
 .feature__image {
   max-width: rem(150);
   border-radius: rem(8);
+
+  @include breakpoint-up("small") {
+    max-width: rem(255);
+  }
 }
 
 .feature__wrapper-subtitle {
@@ -30,6 +51,10 @@
 .feature__title {
   font-size: rem(32);
   margin: rem(24) 0 rem(32);
+
+  @include breakpoint-up("small") {
+    font-size: rem(40);
+  }
 }
 
 .feature__ribbon {

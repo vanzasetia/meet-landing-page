@@ -2,6 +2,10 @@
 
 .header {
   padding: rem(48) 0;
+
+  @include breakpoint-up("small") {
+    padding: rem(80) 0 rem(60) 0;
+  }
 }
 
 .header .container {
