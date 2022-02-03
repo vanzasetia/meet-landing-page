@@ -4,13 +4,13 @@
   *,
   *::before,
   *::after {
-    animation-delay: -1ms !important;
-    animation-duration: 1ms !important;
-    animation-iteration-count: 1 !important;
     background-attachment: initial !important;
-    scroll-behavior: auto !important;
-    transition-duration: 0s !important;
     transition-delay: 0s !important;
+    transition-duration: 0s !important;
+    animation-duration: 1ms !important;
+    animation-delay: -1ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
   }
 }
 
@@ -48,22 +48,22 @@ html {
  * For more information: https://gist.github.com/ffoodd/000b59f431e3e64e4ce1a24d5bb36034
  */
 .sr-only {
-  border: 0 !important;
+  position: absolute !important;
+  margin: -1px !important;
   -webkit-clip-path: inset(50%) !important;
   clip-path: inset(50%) !important;
-  height: 1px !important;
-  margin: -1px !important;
-  overflow: hidden !important;
+  border: 0 !important;
   padding: 0 !important;
-  position: absolute !important;
   width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
   white-space: nowrap !important;
 }
 
 body {
-  font: 500 #{rem(16)}/ 1.45 "Red Hat Display", sans-serif;
-  color: $light-gray;
   background-color: $white;
+  color: $light-gray;
+  font: 500 #{rem(16)}/ 1.45 "Red Hat Display", sans-serif;
 
   @include breakpoint-up("small") {
     font-size: rem(18);
@@ -72,8 +72,8 @@ body {
 
 h1,
 h2 {
-  font-weight: 900;
   color: $dark-gray;
+  font-weight: 900;
 }
 
 h1 {

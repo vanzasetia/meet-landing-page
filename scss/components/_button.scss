@@ -2,12 +2,12 @@
 
 .btn {
   display: inline-block;
-  font-size: rem(16);
   margin: 0.5em;
+  border-radius: 2em;
   text-decoration: none;
   color: rgb(255, 255, 255);
+  font-size: rem(16);
   font-weight: 900;
-  border-radius: 2em;
   transition: background-color 150ms ease-in-out;
 }
 
@@ -19,6 +19,7 @@
   background-color: $dark-green;
 
   @include focus-visible($dark-gray);
+
   @include on-event {
     background-color: rgba(113, 192, 212, 1);
   }
@@ -28,6 +29,7 @@
   background-color: $dark-purple;
 
   @include focus-visible($dark-gray);
+
   @include on-event {
     background-color: rgba(177, 139, 221, 1);
   }

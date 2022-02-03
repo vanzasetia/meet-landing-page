@@ -12,16 +12,16 @@
 }
 
 .number::after {
-  top: -#{rem(28)};
   display: flex;
+  top: -#{rem(28)};
   align-items: center;
   justify-content: center;
+  border: rem(1) solid rgba($light-gray, 0.25);
+  border-radius: 50%;
+  background-color: $white;
   width: rem(56);
   height: rem(56);
-  border: rem(1) solid rgba($light-gray, 0.25);
-  background-color: $white;
   color: $dark-gray;
-  border-radius: 50%;
   font-size: rem(16);
   font-weight: 900;
 }
@@ -29,9 +29,9 @@
 .number::before {
   content: "";
   top: -#{rem(112)};
+  background-color: rgba($light-gray, 0.25);
   width: rem(1);
   height: rem(84);
-  background-color: rgba($light-gray, 0.25);
 }
 
 .number--one::after {

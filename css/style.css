@@ -414,13 +414,13 @@ textarea {
   *,
 *::before,
 *::after {
-    animation-delay: -1ms !important;
-    animation-duration: 1ms !important;
-    animation-iteration-count: 1 !important;
     background-attachment: initial !important;
-    scroll-behavior: auto !important;
-    transition-duration: 0s !important;
     transition-delay: 0s !important;
+    transition-duration: 0s !important;
+    animation-duration: 1ms !important;
+    animation-delay: -1ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
   }
 }
 *,
@@ -457,22 +457,22 @@ html {
  * For more information: https://gist.github.com/ffoodd/000b59f431e3e64e4ce1a24d5bb36034
  */
 .sr-only {
-  border: 0 !important;
+  position: absolute !important;
+  margin: -1px !important;
   -webkit-clip-path: inset(50%) !important;
   clip-path: inset(50%) !important;
-  height: 1px !important;
-  margin: -1px !important;
-  overflow: hidden !important;
+  border: 0 !important;
   padding: 0 !important;
-  position: absolute !important;
   width: 1px !important;
+  height: 1px !important;
+  overflow: hidden !important;
   white-space: nowrap !important;
 }
 
 body {
-  font: 500 1rem/1.45 "Red Hat Display", sans-serif;
-  color: #87879d;
   background-color: #fafafa;
+  color: #87879d;
+  font: 500 1rem/1.45 "Red Hat Display", sans-serif;
 }
 @media screen and (min-width: 59.375em) {
   body {
@@ -482,8 +482,8 @@ body {
 
 h1,
 h2 {
-  font-weight: 900;
   color: #28283d;
+  font-weight: 900;
 }
 
 h1 {
@@ -617,9 +617,9 @@ br + br {
 
 .container {
   margin: 0 auto;
-  text-align: center;
   padding: 0 1.5rem;
   max-width: 31.25rem;
+  text-align: center;
 }
 @media screen and (min-width: 59.375em) {
   .container {
@@ -629,12 +629,12 @@ br + br {
 
 .btn {
   display: inline-block;
-  font-size: 1rem;
   margin: 0.5em;
+  border-radius: 2em;
   text-decoration: none;
   color: white;
+  font-size: 1rem;
   font-weight: 900;
-  border-radius: 2em;
   transition: background-color 150ms ease-in-out;
 }
 
@@ -688,16 +688,16 @@ br + br {
 }
 
 .number::after {
-  top: -1.75rem;
   display: flex;
+  top: -1.75rem;
   align-items: center;
   justify-content: center;
+  border: 0.0625rem solid rgba(135, 135, 157, 0.25);
+  border-radius: 50%;
+  background-color: #fafafa;
   width: 3.5rem;
   height: 3.5rem;
-  border: 0.0625rem solid rgba(135, 135, 157, 0.25);
-  background-color: #fafafa;
   color: #28283d;
-  border-radius: 50%;
   font-size: 1rem;
   font-weight: 900;
 }
@@ -705,9 +705,9 @@ br + br {
 .number::before {
   content: "";
   top: -7rem;
+  background-color: rgba(135, 135, 157, 0.25);
   width: 0.0625rem;
   height: 5.25rem;
-  background-color: rgba(135, 135, 157, 0.25);
 }
 
 .number--one::after {
@@ -747,10 +747,10 @@ br + br {
  *    text content.
  */
 .hero {
-  background: url("../images/image-hero.png") no-repeat top center/25.875rem 9.5625rem;
-  padding: 9.375rem 0 0;
   margin-bottom: 12.75rem;
   /* 1.1 */
+  background: url("../images/image-hero.png") no-repeat top center/25.875rem 9.5625rem;
+  padding: 9.375rem 0 0;
 }
 @media screen and (min-width: 46.25em) {
   .hero {
@@ -760,23 +760,23 @@ br + br {
 }
 @media screen and (min-width: 78em) {
   .hero {
+    margin-bottom: 15.625rem;
+    /* 1.2 */
     background-image: url("../images/desktop/image-hero-left.png"), url("../images/desktop/image-hero-right.png");
     background-position: center left -2.1875rem, center right -2.1875rem;
     background-size: initial;
     padding-top: 4rem;
-    margin-bottom: 15.625rem;
-    /* 1.2 */
   }
 }
 @media screen and (min-width: 90.0625em) {
   .hero {
-    max-width: 90rem;
-    /* 2 */
     margin-right: auto;
     /* 2 */
     margin-left: auto;
     /* 2 */
     background-position: center left, center right;
+    /* 2 */
+    max-width: 90rem;
     /* 2 */
   }
 }
@@ -798,8 +798,8 @@ br + br {
 
 .hero .flex {
   display: flex;
-  justify-content: center;
   flex-wrap: wrap;
+  justify-content: center;
   margin-top: 2rem;
 }
 
@@ -819,8 +819,8 @@ br + br {
 .feature .flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 1.5625rem;
+  justify-content: center;
 }
 
 .feature .flex__child {
@@ -839,8 +839,8 @@ br + br {
 }
 
 .feature__image {
-  max-width: 9.375rem;
   border-radius: 0.5rem;
+  max-width: 9.375rem;
 }
 @media screen and (min-width: 59.375em) {
   .feature__image {
@@ -855,8 +855,8 @@ br + br {
 }
 
 .feature__title {
-  font-size: 2rem;
   margin: 1.5rem 0 2rem;
+  font-size: 2rem;
 }
 @media screen and (min-width: 59.375em) {
   .feature__title {
@@ -865,18 +865,18 @@ br + br {
 }
 
 .feature__ribbon {
-  font-weight: 900;
-  letter-spacing: 0.25rem;
-  font-size: 1rem;
   text-transform: uppercase;
+  letter-spacing: 0.25rem;
   color: #4d96a8;
+  font-size: 1rem;
+  font-weight: 900;
 }
 
 .experience {
   position: relative;
   margin-top: 7rem;
-  padding: 8.75rem 0 4.75rem;
   background: url("../images/mobile/image-footer.jpg") no-repeat center center/cover;
+  padding: 8.75rem 0 4.75rem;
   color: #fafafa;
 }
 @media screen and (min-width: 37.5em) {
@@ -886,8 +886,8 @@ br + br {
 }
 @media screen and (min-width: 78em) {
   .experience {
-    padding: 7.25rem 0 6.5rem;
     background-image: url("../images/desktop/image-footer.jpg");
+    padding: 7.25rem 0 6.5rem;
   }
 }
 
@@ -916,8 +916,8 @@ br + br {
 @media screen and (min-width: 78em) {
   .experience .flex {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
   }
 }
 

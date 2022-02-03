@@ -15,8 +15,8 @@
 .feature .flex {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: rem(25);
+  justify-content: center;
 }
 
 .feature .flex__child {
@@ -34,8 +34,8 @@
 }
 
 .feature__image {
-  max-width: rem(150);
   border-radius: rem(8);
+  max-width: rem(150);
 
   @include breakpoint-up("small") {
     max-width: rem(255);
@@ -49,8 +49,8 @@
 }
 
 .feature__title {
-  font-size: rem(32);
   margin: rem(24) 0 rem(32);
+  font-size: rem(32);
 
   @include breakpoint-up("small") {
     font-size: rem(40);
@@ -58,9 +58,9 @@
 }
 
 .feature__ribbon {
-  font-weight: 900;
-  letter-spacing: rem(4);
-  font-size: rem(16);
   text-transform: uppercase;
+  letter-spacing: rem(4);
   color: $dark-green;
+  font-size: rem(16);
+  font-weight: 900;
 }

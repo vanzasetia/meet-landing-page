@@ -3,9 +3,9 @@
 .experience {
   position: relative;
   margin-top: rem(112);
-  padding: rem(140) 0 rem(76);
   background: url("../images/mobile/image-footer.jpg") no-repeat
     center center/cover;
+  padding: rem(140) 0 rem(76);
   color: $white;
 
   @include breakpoint-up("tiny") {
@@ -13,8 +13,8 @@
   }
 
   @include breakpoint-up("medium") {
-    padding: rem(116) 0 rem(104);
     background-image: url("../images/desktop/image-footer.jpg");
+    padding: rem(116) 0 rem(104);
   }
 }
 
@@ -43,8 +43,8 @@
 .experience .flex {
   @include breakpoint-up("medium") {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
   }
 }
 
