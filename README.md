@@ -1,4 +1,4 @@
-![banner](./images/banner.png)
+![It's finally done! Meet Landing Page Challenge](./images/banner.png)
 
 <p align="left">
   <a href="https://www.frontendmentor.io/challenges?difficulties=1" target="_blank"><img src="https://img.shields.io/badge/Difficulty-Newbie-14C2C8?style=for-the-badge&logo=frontendmentor" alt="Difficulty"></a>
@@ -17,7 +17,7 @@
     </a>
 </p>
 
-# 
+# Meet Landing Page Challenge
 
 ## Table of contents
 - [Overview](#overview)
@@ -44,11 +44,17 @@ In this file I'm going to tell you everything, starting from tools that I used, 
 
 That's it for the introduction and **happy reading!**
 ### The Challenge
+The challenge is to build out this landing page and get it looking as close to the design as possible.
+
+The users should be able to:
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
+- Explore the site using screen reader
+- See focus visible states for interactive elements
 
 ### Links
 - [🌐 Live Review](https://officialmeet.netlify.app/)
 - [👨‍🏫 Frontend Mentor Solution Page]()
-- [📖 My Walkthrough]()
 
 ### Screenshots
 
