@@ -54,7 +54,7 @@ The users should be able to:
 
 ### Links
 - [🌐 Live Review](https://officialmeet.netlify.app/)
-- [👨‍🏫 Frontend Mentor Solution Page]()
+- [👨‍🏫 Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/meet-landing-page-html-css-sass-aCWhmZKRk)
 
 ### Screenshots
 
