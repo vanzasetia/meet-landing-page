@@ -58,11 +58,7 @@ The users should be able to:
 
 ### Screenshots
 
-Desktop
-![Desktop](./screenshots/desktop.jpg)
-
-Mobile
-![Mobile](./screenshots/mobile.jpg)
+![Desktop](./screenshots/desktop.png)
 
 ## My Process
 [(Back to top)](#table-of-contents)
