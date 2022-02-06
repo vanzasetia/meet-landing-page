@@ -28,7 +28,6 @@
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgements](#acknowledgements)
 - [License](#license)
@@ -76,7 +75,6 @@ The users should be able to:
 
 ### What I Learned
 
-### Useful Resources
 
 ## Author
 [(Back to top)](#table-of-contents)
