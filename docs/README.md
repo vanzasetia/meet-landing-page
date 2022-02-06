@@ -8,8 +8,6 @@
 - [Font family](#font-family)
 - [References](#references)
   - [Guidelines](#guidelines)
-  - [Web doc](#web-doc)
-  - [Articles](#articles)
   - [Tools](#tools)
   - [Validation](#validation)
 
