@@ -60,3 +60,12 @@ These are the guidelines that I follow when I write the code.
 - [Grammarly](https://www.grammarly.com/?ref=vanzasetia) - check the grammar of the `README` files
 
 ### Validations
+- [SEOptimer](https://www.seoptimer.com/?ref=vanzasetia) - Check how good your website on search result and other stuffs. [The website got B+](https://www.seoptimer.com/officialmeet.netlify.app/?ref=vanzasetia).
+- [HTML Validator](https://validator.w3.org/nu/?ref=vanzasetia) - [The website has a valid HTML](https://validator.w3.org/nu/?doc=https%3A%2F%2Fofficialmeet.netlify.app%2F)
+- [CSS Validator](https://jigsaw.w3.org/css-validator/?ref=vanzasetia) - [The website has a valid CSS](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fofficialmeet.netlify.app%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+- [Twitter card validator](https://cards-dev.twitter.com/validator/?ref=vanzasetia)
+- [Facebook card validator](https://developers.facebook.com/tools/debug/?ref=vanzasetia)
+- [Meta Tags](https://metatags.io/?ref=vanzasetia) - Check how my website looks like when I share it on Google, Facebook, Twitter, Linkedin, Slack, and Pinterest.
+- [Checklist - The A11Y Project](https://www.a11yproject.com/checklist/?ref=vanzasetia) - this checklist really improve the accessibility of my solution. I would recommend checking yours too!
+- [The Frontend Checklist](https://frontendchecklist.io/?ref=vanzasetia) - I checked most of the high priority one.
+- [WAVE - web accessibility evaluation tool](https://wave.webaim.org/?ref=vanzasetia) - [The website has no error](https://wave.webaim.org/report#/https://officialmeet.netlify.app/)
