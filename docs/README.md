@@ -57,5 +57,6 @@ These are the guidelines that I follow when I write the code.
 - [Font Converter](https://www.fontconverter.io/?ref=vanzasetia) - convert `ttf` to `woff` and `woff2`
 - [Canva](https://canva.com/?ref=vanzasetia) - design the banner
 - [Site shot](https://site-shot.com/?ref=vanzasetia) - take screenshot
+- [Grammarly](https://www.grammarly.com/?ref=vanzasetia) - check the grammar of the `README` files
 
 ### Validations
