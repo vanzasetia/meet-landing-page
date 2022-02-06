@@ -75,6 +75,56 @@ The users should be able to:
 
 ### What I Learned
 
+#### Advanced Pseudo-Elements
+
+![Creating the circle with a number in it](./screenshots/problem-number.png)
+
+The problem is the element is just a decoration. So, if I used an actual element on the HTML, it might be look something like this:
+
+```html
+<div class="number" aria-hidden="true">
+  <p class="number__value">01</p>
+</div>
+```
+
+And that is okay, but I wanted to create it as a *decorative element*. So, I thought, *"Why don't use pseudo-elements? But, is it possible?"*. Luckily, **it is possible!**
+
+As the result, I managed to create it with **100%** pseudo-elements. Let me explain how I did that.
+- First, on the HTML, I added the `number` class to the `section` and a modifier class (`number--one`) for the `content` of the number.
+
+```html
+<section class="feature number number--one">
+</section>
+```
+
+- Second, I made the `number` element as `position: relative;`
+- Third, I made the pseudo-elements center horizontally using absolute positioning.
+```css
+/**
+ * 1. This is temporary code. It used to
+ * to create the circle and the vertical line
+ */
+.number::after,
+.number::before {
+  content: ""; /* 1 */
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+```
+- Fourth, I used the `::after` as the circle and the `::before` as the vertical line.
+- Lastly, after everything was set up, I removed the temporary `content` property and wrote each number on the modifier class.
+```css
+.number--one::after {
+  content: "01";
+}
+
+.number--two::after {
+  content: "02";
+}
+```
+
+> If you want to know the complete code, see [_number.scss](./scss/components/_number.scss)
 
 ## Author
 [(Back to top)](#table-of-contents)
