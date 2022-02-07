@@ -52,8 +52,8 @@ The users should be able to:
 - See focus visible states for interactive elements
 
 ### Links
-- [🌐 Live Review](https://officialmeet.netlify.app/)
-- [👨‍🏫 Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/meet-landing-page-html-css-sass-aCWhmZKRk)
+- [Live Review](https://officialmeet.netlify.app/)
+- [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/meet-landing-page-html-css-sass-aCWhmZKRk)
 
 ### Screenshots
 
@@ -145,7 +145,7 @@ As the result, I managed to create it with **100%** pseudo-elements. Let me expl
 This project is licensed under the terms of the MIT license.
 
 For those of you who are wondering, why do I need to license this? 
-- Well, first it's free 😁.
+- Well, first it's free. 😆
 - Second I checked this [Choose license website](https://choosealicense.com/) to help me chose a license.
 - The last reason, if I don't want to choose a license, then [here's what gonna happen](https://choosealicense.com/no-permission/).
 
