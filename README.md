@@ -1,48 +1,25 @@
 ![It's finally done! Meet Landing Page Challenge](./images/banner.png)
 
-<p align="left">
-  <a href="https://www.frontendmentor.io/challenges?difficulties=1" target="_blank"><img src="https://img.shields.io/badge/Difficulty-Newbie-14C2C8?style=for-the-badge&logo=frontendmentor" alt="Difficulty"></a>
-  <img alt="Repo size" src="https://img.shields.io/github/repo-size/vanzasetia/meet-landing-page?style=for-the-badge&logo=github">
-  <a href="https://twitter.com/vanzasetia" target="_blank"><img src="https://img.shields.io/twitter/follow/vanzasetia?logo=twitter&style=for-the-badge" alt="Twitter followers." /></a>
-  <img alt="Last commit" src="https://img.shields.io/github/last-commit/vanzasetia/meet-landing-page?style=for-the-badge&logo=git">
-  <img alt="Netlify" src="https://img.shields.io/netlify/a01a5b70-52c6-48b8-80ff-cf4f496e9ae0?style=for-the-badge&logo=netlify">
-  <img alt="License" src="https://img.shields.io/github/license/vanzasetia/meet-landing-page?color=green&style=for-the-badge&logo=github">
-</p>
-
-<p>
-  <a href="http://jigsaw.w3.org/css-validator/check/referer">
-    <img style="border:0;width:88px;height:31px"
-        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
-        alt="Valid CSS!" />
-    </a>
-</p>
-
 # Meet Landing Page Challenge
 
-## Table of contents
-- [Overview](#overview)
-  - [Introduction](#introduction)
-  - [The challenge](#the-challenge)
-  - [Links](#links)
-  - [Screenshots](#screenshots)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-- [Author](#author)
-- [Acknowledgements](#acknowledgements)
-- [License](#license)
-- [References](#references)
+## Disclaimer
+
+This project is solely for learning purposes. I take no any responsibility or liability for the accuracy, completeness, or usefulness of any information provided in this project. You should not use it as a reference for creating your project.
+
+I am currently no longer working on this project.
 
 ## Overview
-[(Back to top)](#table-of-contents)
 
 ### Introduction
+
 Welcome to the `README.md` of this repo! The purpose of creating this project is to sharpen my coding skill.
 
 In this file I'm going to tell you everything, starting from tools that I used, and much more.
 
 That's it for the introduction and **happy reading!**
+
 ### The Challenge
+
 The challenge is to build out this landing page and get it looking as close to the design as possible.
 
 The users should be able to:
@@ -52,6 +29,7 @@ The users should be able to:
 - See focus visible states for interactive elements
 
 ### Links
+
 - [Live Review](https://officialmeet.netlify.app/)
 - [Frontend Mentor Solution Page](https://www.frontendmentor.io/solutions/meet-landing-page-html-css-sass-aCWhmZKRk)
 
@@ -60,9 +38,9 @@ The users should be able to:
 ![Desktop](./screenshots/desktop.png)
 
 ## My Process
-[(Back to top)](#table-of-contents)
 
 ### Built With
+
 - **Following best practices**\* 
 - HTML Semantic Tags
 - [BEM (Block, Element, Modifier)](https://sparkbox.com/foundry/bem_by_example) Class *Naming Convention*
@@ -124,33 +102,12 @@ As the result, I managed to create it with **100%** pseudo-elements. Let me expl
 }
 ```
 
-> If you want to know the complete code, see [_number.scss](./scss/components/_number.scss)
-
-## Author
-[(Back to top)](#table-of-contents)
-
-- Frontend Mentor - [@vanzasetia](https://frontendmentor.io/profile/vanzasetia)
-- Twitter - [@vanzasetia](https://twitter.com/vanzasetia)
-- Code Newbie - [@vanzasetia](https://community.codenewbie.org/vanzasetia)
-- Want to see me on other platform? [Check my linktree!](https://linktr.ee/vanzasetia)
-
-## Acknowledgements
-[(Back to top)](#table-of-contents)
+If you want to know the complete code, see [_number.scss](./scss/components/_number.scss)
 
 ## License
-[(Back to top)](#table-of-contents)
 
->You can check out [the full license](./LICENSE)
-
-This project is licensed under the terms of the MIT license.
-
-For those of you who are wondering, why do I need to license this? 
-- Well, first it's free. 😆
-- Second I checked this [Choose license website](https://choosealicense.com/) to help me chose a license.
-- The last reason, if I don't want to choose a license, then [here's what gonna happen](https://choosealicense.com/no-permission/).
+[MIT](./LICENSE)
 
 ## References
 
-[(Back to top)](#table-of-contents)
-
-> See the [documentation.](./docs/README.md)
+See the [documentation.](./docs/README.md)
